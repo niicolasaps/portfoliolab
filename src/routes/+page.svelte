@@ -11,10 +11,10 @@
 	import { ArrowBigRight, ArrowRight } from 'lucide-svelte';
 	// import Timeline from '$lib/components/Timeline.svelte';
 	import GlowCard from '$lib/components/GlowCard.svelte';
+	import foto from '$lib/images/minhafoto.png';
+	
+	
 
-	let { form }: { form: ActionData } = $props();
-	let scrollY = $state(0);
-	let innerHeight = $state(0);
 	let currentLocale = $state(getLocale());
 
 	if (typeof window !== 'undefined') {
@@ -24,7 +24,7 @@
 		});
 	}
 
-	const habilidades = ['JavaScript', 'React', 'Node.js', 'TypeScript', 'Svelte', 'Tailwind'];
+	const habilidades = ['JavaScript', 'Java', 'Node.js', 'TypeScript', 'Svelte', 'Tailwind', 'C#', 'SQL'];
 
 	const experiencias = [
 		{
@@ -32,12 +32,6 @@
 			empresaKey: 'experiences.1.company',
 			periodoKey: 'experiences.1.period',
 			descKey: 'experiences.1.desc'
-		},
-		{
-			cargoKey: 'experiences.2.role',
-			empresaKey: 'experiences.2.company',
-			periodoKey: 'experiences.2.period',
-			descKey: 'experiences.2.desc'
 		}
 	];
 
@@ -79,7 +73,7 @@
 							<!-- {t('profile.photo', currentLocale)} -->
 							<img
 								class="h-full w-full object-cover"
-								src="https://atletico.com.br/wp-content/uploads/2024/07/53872156304_87a4c8f811_k-1.jpg"
+								src= {foto}
 								alt=""
 							/>
 						</div>
@@ -181,7 +175,7 @@
 					<h2 class="text-center text-3xl font-bold text-base-content lg:text-left">
 						{t('projects.title', currentLocale)}
 					</h2>
-					<a href="/projetos" class="btn px-16 btn-primary"
+					<a href="/projetos" class="btn md:px-16 btn-primary"
 						>{t('projects.see_more', currentLocale)} <ArrowRight /></a
 					>
 				</div>
@@ -210,7 +204,7 @@
 									{t(projeto.tituloKey, currentLocale)}
 								</h3>
 								<p class="text-base-content">{t(projeto.descKey, currentLocale)}</p>
-								<div class="flex gap-2">
+								<div class="flex flex-wrap items-start gap-2">
 									{#each projeto.tecnologias as tech}
 										<span class="rounded bg-primary/20 px-3 py-1 text-sm text-primary">{tech}</span>
 									{/each}
@@ -290,7 +284,7 @@
 							<p class="text-xs font-semibold tracking-wider text-base-content">
 								{t('contact.email_label', currentLocale)}
 							</p>
-							<p class="text-base-content">meuemail@gmail.com</p>
+							<p class="text-base-content">nicolasalmeida.ps@gmail.com</p>
 						</div>
 					</div>
 
@@ -317,7 +311,7 @@
 
 					<div class="mt-2 flex items-center gap-4">
 						<a
-							href="https://github.com"
+							href="https://github.com/niicolasaps"
 							aria-label="GitHub"
 							class="rounded-md bg-base-200 p-3 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -334,7 +328,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://linkedin.com"
+							href="https://www.linkedin.com/in/nicolas-silva-a7b2b3308/"
 							aria-label="LinkedIn"
 							class="rounded-md bg-base-200 p-3 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -351,7 +345,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://instagram.com"
+							href="https://www.instagram.com/nicolas.aps_/"
 							aria-label="Instagram"
 							class="rounded-md bg-base-200 p-3 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -368,7 +362,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://x.com"
+							href="https://x.com/n1colassilva"
 							aria-label="X (Twitter)"
 							class="rounded-md bg-base-200 p-3 text-base-content transition-colors hover:bg-base-100"
 						>

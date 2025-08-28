@@ -26,10 +26,10 @@
 
 	const navItems = [
 		{ key: 'nav.home', href: '/' },
-		{ key: 'nav.about', href: '#sobre' },
-		{ key: 'nav.projects', href: '#projetos' },
-		{ key: 'nav.experiences', href: '#experiencias' },
-		{ key: 'nav.contact', href: '#contato' }
+		{ key: 'nav.about', href: '/#sobre' },
+		{ key: 'nav.projects', href: '/#projetos' },
+		{ key: 'nav.experiences', href: '/#experiencias' },
+		{ key: 'nav.contact', href: '/#contato' }
 	];
 
 	if (typeof window !== 'undefined') {
@@ -128,7 +128,7 @@
 >
 	<div class="mx-auto max-w-6xl px-4">
 		<div class="flex h-16 items-center justify-between">
-			<a href="/" class="text-xl font-bold text-base-content"> {t('brand.name', currentLocale)} </a>
+			<a href="/" class="text-xl font-bold text-base-content"> {t('Nicolas Almeida', currentLocale)} </a>
 
 			<nav
 				class="hidden items-center text-sm md:flex"
@@ -274,7 +274,7 @@
 					<h3 class="text-lg font-bold text-base-content">{t('footer.connect', currentLocale)}</h3>
 					<div class="flex items-center justify-center gap-4 md:justify-start">
 						<a
-							href="https://github.com"
+							href="https://github.com/niicolasaps"
 							aria-label="GitHub"
 							class="rounded-full bg-base-200 p-2 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -291,7 +291,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://linkedin.com"
+							href="https://www.linkedin.com/in/nicolas-silva-a7b2b3308/"
 							aria-label="LinkedIn"
 							class="rounded-full bg-base-200 p-2 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -308,7 +308,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://instagram.com"
+							href="https://www.instagram.com/nicolas.aps_/"
 							aria-label="Instagram"
 							class="rounded-full bg-base-200 p-2 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -325,7 +325,7 @@
 							</svg>
 						</a>
 						<a
-							href="https://x.com"
+							href="https://x.com/n1colassilva"
 							aria-label="X (Twitter)"
 							class="rounded-full bg-base-200 p-2 text-base-content transition-colors hover:bg-base-100"
 						>
@@ -349,7 +349,7 @@
 			>
 				<p>
 					&copy; {new Date().getFullYear()}
-					{t('brand.name', currentLocale)}. {t('footer.rights', currentLocale)}
+					{t('Nicolas Almeida', currentLocale)}. {t('footer.rights', currentLocale)}
 				</p>
 			</div>
 		</div>

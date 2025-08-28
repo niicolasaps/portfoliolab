@@ -7,7 +7,7 @@ import { env } from '$env/dynamic/private';
 const transporter = nodemailer.createTransport({
 	 service: "gmail",
         auth: {
-            user: "brenoca35@gmail.com",
+            user: "nicolasalmeida.ps@gmail.com",
             pass: env.GMAIL_PASSWORD,
         },
 });
@@ -53,8 +53,8 @@ export const actions = {
 			// await transporter.verify();
 
 			const mailOptions = {
-				from: '"BrenoTeste" <brenoca35@gmail.com>',
-				to: 'oliveira.brenobrandao@gmail.com',
+				from: '"NicolasTeste" <nickbrpvp@gmail.com>',
+				to: 'nicolasalmeida.ps@gmail.com',
 				subject: `New Contact Form Message from ${name}`,
 				html: `
 					<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

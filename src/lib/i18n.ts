@@ -30,9 +30,9 @@ type Dictionaries = Record<Locale, Dict>;
 export const dictionaries: Dictionaries = {
 	pt: {
 		// Brand / Hero
-		'brand.name': 'Meu Nome Aqui',
+		'brand.name': 'Nicolas Almeida',
 		'hero.intro':
-			'Texto introdutório: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'Estudante de Engenharia de Software na PUC Minas, apaixonado por tecnologia e afins, sempre em busca de aprendizado e desenvolvimento',
 
 		// Navigation
 		'nav.home': 'Home',
@@ -62,23 +62,23 @@ export const dictionaries: Dictionaries = {
 		'about.title': 'Sobre mim',
 		'about.who': 'Quem sou eu',
 		'about.who_text':
-			'Sou um desenvolvedor focado em criar experiências web rápidas, acessíveis e modernas. Apaixonado por aprender e compartilhar conhecimento.',
+			'Olá! Sou o Nicolas e desde pequeno sempre fui apaixonado pela área de tecnologia, foi então a partir dos meus 12 anos que comecei a estudar e me interessar cada vez mais na área, aos 15 anos virei técnico em hardware e sistemas operacionais. Aos 19 anos entrei para a PUC Minas para aprimorar mais meu conhecimento, dessa vez expandindo para área de programação e desenvolvimento para cada vez mais ficar melhor e mais completo.',
 		'about.skills': 'Habilidades',
 
 		// Projects & Experience
 		'projects.title': 'Projetos',
-		'projects.1.title': 'Projeto 1',
-		'projects.1.desc': 'Descrição do projeto, tecnologias utilizadas e objetivos alcançados.',
-		'projects.2.title': 'Projeto 2',
-		'projects.2.desc': 'Descrição do projeto, tecnologias utilizadas e objetivos alcançados.',
+		'projects.1.title': 'MyFood',
+		'projects.1.desc': 'Este projeto visa desenvolver uma alternativa para a população facilmente poder realizar todos os passos de um pedido em um restaurante, da seleção do prato, até sua avaliação.',
+		'projects.2.title': 'Aqua Vida',
+		'projects.2.desc': 'Este projeto visa desenvolver uma alternativa para os envolvidos de um serviços de tratamento de água possam executar todos os passos, desde o cadastro dos clientes, ate a efetivação de contratos de serviços.',
 		'projects.3.title': 'Projeto 3',
 		'projects.3.desc': 'Descrição do projeto, tecnologias utilizadas e objetivos alcançados.',
 		'experiences.title': 'Experiências',
-		'experiences.1.role': 'Desenvolvedor Front-end',
-		'experiences.1.company': 'Empresa XYZ',
-		'experiences.1.period': '2022 - Presente',
+		'experiences.1.role': 'Estagiário de Testes',
+		'experiences.1.company': 'Teknisa',
+		'experiences.1.period': '2025 - Presente',
 		'experiences.1.desc':
-			'Desenvolvimento de aplicações web responsivas, otimização de performance e trabalho em equipe com metodologias ágeis.',
+			'Realizou testes manuais no sistema HCM Folha, um sistema de gestão de folha de pagamento e ponto de frequência, garantindo a qualidade e funcionalidade do software. Atuou na criação e execução de casos de teste, identificação e documentação de defeitos, além de colaborar com a equipe de desenvolvimento para resolver problemas encontrados. Participou ativamente de reuniões diárias e revisões de sprint, contribuindo para a melhoria contínua dos processos de teste e desenvolvimento ágil.',
 		'experiences.2.role': 'Desenvolvedor Full-stack',
 		'experiences.2.company': 'Startup ABC',
 		'experiences.2.period': '2020 - 2022',
@@ -102,13 +102,13 @@ export const dictionaries: Dictionaries = {
 
 		// Detailed descriptions and features
 		'projects.1.detailed_desc':
-			'Uma aplicação web moderna construída com React e Node.js, focada em performance e experiência do usuário. O projeto implementa as melhores práticas de desenvolvimento e arquitetura escalável.',
+			'Este projeto visa desenvolver uma alternativa para a população facilmente poder realizar todos os passos de um pedido em um restaurante, da seleção do prato, até sua avaliação. Nesse projeto pude colocar em prática todo o processo de uma criação de software com back end em Spring Boot, realização de diagramas DER, processos BPMN, entre outros, pude trabalhar com Svelte, Java Spring Boot e PostgreSQL. Foram realizados testes manuais e automatizados com JUnit.',
 		'projects.1.feature1': 'Interface responsiva e intuitiva',
-		'projects.1.feature2': 'API RESTful robusta',
-		'projects.1.feature3': 'Autenticação e autorização seguras',
+		'projects.1.feature2': 'Spring Boot RESTful API robusta',
+		'projects.1.feature3': 'Módulo de pagamento seguro',
 
 		'projects.2.detailed_desc':
-			'Aplicação desenvolvida com Svelte e TypeScript, demonstrando a eficiência e simplicidade do framework. Foco em componentes reutilizáveis e tipagem forte.',
+			'Este projeto visa desenvolver uma alternativa para os envolvidos de um serviços de tratamento de água possam executar todos os passos, desde o cadastro dos clientes, ate a efetivação de contratos de serviços.',
 		'projects.2.feature1': 'Componentes Svelte reutilizáveis',
 		'projects.2.feature2': 'Tipagem completa com TypeScript',
 		'projects.2.feature3': 'Bundle otimizado e performático',
@@ -153,9 +153,9 @@ export const dictionaries: Dictionaries = {
 	},
 	en: {
 		// Brand / Hero
-		'brand.name': 'My Name Here',
+		'brand.name': 'Nicolas Almeida',
 		'hero.intro':
-			'Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'Software Engineering student at PUC Minas, passionate about technology and related subjects, always seeking learning and development.',
 
 		// Navigation
 		'nav.home': 'Home',
@@ -185,23 +185,23 @@ export const dictionaries: Dictionaries = {
 		'about.title': 'About me',
 		'about.who': 'Who am I',
 		'about.who_text':
-			'I am a developer focused on building fast, accessible, and modern web experiences. Passionate about learning and sharing knowledge.',
+			'Hello! My name is Nicolas, and since I was a child, I have always been passionate about technology. At the age of 12, I began studying and becoming increasingly interested in the field. By the time I was 15, I had become a technician in hardware and operating systems. At 19, I joined PUC Minas to further enhance my knowledge, this time expanding into programming and development in order to become better and more well-rounded.',
 		'about.skills': 'Skills',
 
 		// Projects & Experience
 		'projects.title': 'Projects',
-		'projects.1.title': 'Project 1',
-		'projects.1.desc': 'Project description, tech used and goals achieved.',
-		'projects.2.title': 'Project 2',
-		'projects.2.desc': 'Project description, tech used and goals achieved.',
+		'projects.1.title': 'MyFood',
+		'projects.1.desc': 'This project aims to develop an alternative for the population to easily carry out all the steps of ordering at a restaurant, from selecting the dish to its evaluation.',
+		'projects.2.title': 'Aqua Vida',
+		'projects.2.desc': 'This project aims to develop an alternative for those involved in water treatment services to carry out all the steps, from customer registration to the execution of service contracts.',
 		'projects.3.title': 'Project 3',
 		'projects.3.desc': 'Project description, tech used and goals achieved.',
 		'experiences.title': 'Experience',
-		'experiences.1.role': 'Front-end Developer',
-		'experiences.1.company': 'Company XYZ',
-		'experiences.1.period': '2022 - Present',
+		'experiences.1.role': 'Testing Intern',
+		'experiences.1.company': 'Teknisa',
+		'experiences.1.period': '2025 - Present',
 		'experiences.1.desc':
-			'Responsive web development, performance optimization, and teamwork using agile methodologies.',
+			'Performed manual testing on the HCM Payroll system, a payroll and time tracking management system, ensuring software quality and functionality. Contributed to the creation and execution of test cases, identification and documentation of defects, and collaborated with the development team to resolve identified issues. Actively participated in daily meetings and sprint reviews, contributing to the continuous improvement of testing processes and agile development.',
 		'experiences.2.role': 'Full-stack Developer',
 		'experiences.2.company': 'Startup ABC',
 		'experiences.2.period': '2020 - 2022',
@@ -225,10 +225,10 @@ export const dictionaries: Dictionaries = {
 
 		// Detailed descriptions and features
 		'projects.1.detailed_desc':
-			'A modern web application built with React and Node.js, focused on performance and user experience. The project implements development best practices and scalable architecture.',
+			'This project aims to develop an alternative for customers to easily go through all the steps of placing an order in a restaurant, from selecting a dish to providing feedback. In this project, I was able to put into practice the entire software development process, with a backend built in Spring Boot, creation of ER diagrams, BPMN processes, among others. I worked with Svelte, Java Spring Boot, and PostgreSQL. Both manual and automated tests with JUnit were carried out.',
 		'projects.1.feature1': 'Responsive and intuitive interface',
-		'projects.1.feature2': 'Robust RESTful API',
-		'projects.1.feature3': 'Secure authentication and authorization',
+		'projects.1.feature2': 'Spring Boot Robust RESTful API',
+		'projects.1.feature3': 'Secure payment module',
 
 		'projects.2.detailed_desc':
 			'Application developed with Svelte and TypeScript, demonstrating the efficiency and simplicity of the framework. Focus on reusable components and strong typing.',
