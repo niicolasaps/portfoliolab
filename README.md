@@ -1,7 +1,7 @@
 # Portfólio
 
 ## Link do site 
-- https://portfoliolab-production.up.railway.app/
+- https://portfoliolab-gw69.onrender.com/
 
 ## Descrição
 Este projeto consiste no desenvolvimento de um portólio profissional onde será mostrado minha trajetória, habilidades, projetos e formas de contato de maneira moderna
