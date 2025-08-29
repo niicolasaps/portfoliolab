@@ -1,5 +1,7 @@
 # Portfólio
 
+![recording-2025-08-29-19-30-35](https://github.com/user-attachments/assets/2b9e35e9-74c4-4554-ad24-d17b4f5e6ae9)
+
 ## Link do site 
 - https://portfoliolab-gw69.onrender.com/
 
