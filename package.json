@@ -50,6 +50,7 @@
 		"flag-icons": "^7.5.0",
 		"lucide-svelte": "^0.540.0",
 		"nodemailer": "^7.0.5",
+		"resend": "^6.2.0-preview-contacts.0",
 		"svelte-motion": "^0.12.2",
 		"tailwind-merge": "^3.3.1"
 	}
