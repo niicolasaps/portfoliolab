@@ -123,7 +123,7 @@ export const dictionaries: Dictionaries = {
 		'contact.open_to_work': 'Aberto para trabalho e colaborações',
 		'contact.email_label': 'EMAIL',
 		'contact.location_label': 'LOCALIZAÇÃO',
-		'contact.location_value': 'Minha localização',
+		'contact.location_value': 'Belo Horizonte - MG',
 		'form.name': 'Nome',
 		'form.email': 'Email',
 		'form.message': 'Mensagem',
@@ -246,7 +246,7 @@ export const dictionaries: Dictionaries = {
 		'contact.open_to_work': 'Open to work & Collabs',
 		'contact.email_label': 'EMAIL',
 		'contact.location_label': 'LOCATION',
-		'contact.location_value': 'My location',
+		'contact.location_value': 'Belo Horizonte - MG',
 
 		// Form
 		'form.name': 'Name',
