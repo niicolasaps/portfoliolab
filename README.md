@@ -18,7 +18,7 @@ e acessível.
 
 
 ## Tecnologias utilizadas
-- Svelte, Vercel, Figma, GitHub
+- Svelte, Render, Figma, GitHub
  
 ## Relação das dependências e bibliotecas/frameworks usados
 - Svelte, Tailwind, Lucide, Daisyui
