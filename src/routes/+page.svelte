@@ -64,10 +64,7 @@
 		<Animate>
 			<div class="grid items-center gap-12 lg:grid-cols-2">
 				<div class="space-y-8 text-center lg:text-left">
-					<TextAnimation
-						class="text-left text-4xl leading-tight font-bold text-base-content md:text-5xl lg:text-7xl"
-						words={t('brand.name', currentLocale)}
-					/>
+					<h1 class="text-left text-4xl leading-tight font-bold text-base-content md:text-5xl lg:text-7xl">{t('brand.name', currentLocale)}</h1>
 					<p class="mx-auto max-w-2xl text-xl leading-relaxed text-base-content lg:mx-0">
 						{t('hero.intro', currentLocale)}
 					</p>
