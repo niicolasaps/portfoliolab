@@ -128,7 +128,7 @@
 >
 	<div class="mx-auto max-w-6xl px-4">
 		<div class="flex h-16 items-center justify-between">
-			<a href="/" class="text-xl font-bold text-base-content"> {t('Nicolas Almeida', currentLocale)} </a>
+			<a href="/" class="text-lg font-bold text-base-content md:text-xl"> {t('Nicolas Almeida', currentLocale)} </a>
 
 			<nav
 				class="hidden items-center text-sm md:flex"

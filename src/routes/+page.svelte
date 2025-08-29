@@ -12,8 +12,6 @@
 	// import Timeline from '$lib/components/Timeline.svelte';
 	import GlowCard from '$lib/components/GlowCard.svelte';
 	import foto from '$lib/images/minhafoto.png';
-	
-	
 
 	let currentLocale = $state(getLocale());
 
@@ -24,7 +22,16 @@
 		});
 	}
 
-	const habilidades = ['JavaScript', 'Java', 'Node.js', 'TypeScript', 'Svelte', 'Tailwind', 'C#', 'SQL'];
+	const habilidades = [
+		'JavaScript',
+		'Java',
+		'Node.js',
+		'TypeScript',
+		'Svelte',
+		'Tailwind',
+		'C#',
+		'SQL'
+	];
 
 	const experiencias = [
 		{
@@ -51,13 +58,14 @@
 		};
 	};
 </script>
+
 <section class="flex min-h-screen items-center">
 	<div class="mx-auto w-full max-w-6xl px-4">
 		<Animate>
 			<div class="grid items-center gap-12 lg:grid-cols-2">
 				<div class="space-y-8 text-center lg:text-left">
 					<TextAnimation
-						class="text-left text-5xl leading-tight font-bold text-base-content lg:text-7xl"
+						class="text-left text-4xl leading-tight font-bold text-base-content md:text-5xl lg:text-7xl"
 						words={t('brand.name', currentLocale)}
 					/>
 					<p class="mx-auto max-w-2xl text-xl leading-relaxed text-base-content lg:mx-0">
@@ -71,11 +79,7 @@
 					>
 						<div class="flex h-full w-full items-center justify-center text-lg">
 							<!-- {t('profile.photo', currentLocale)} -->
-							<img
-								class="h-full w-full object-cover"
-								src= {foto}
-								alt=""
-							/>
+							<img class="h-full w-full object-cover" src={foto} alt="" />
 						</div>
 					</div>
 				</div>
@@ -175,7 +179,7 @@
 					<h2 class="text-center text-3xl font-bold text-base-content lg:text-left">
 						{t('projects.title', currentLocale)}
 					</h2>
-					<a href="/projetos" class="btn md:px-16 btn-primary"
+					<a href="/projetos" class="btn btn-primary md:px-16"
 						>{t('projects.see_more', currentLocale)} <ArrowRight /></a
 					>
 				</div>
@@ -183,7 +187,7 @@
 					{#each projetos.slice(0, 3) as projeto}
 						<a
 							href="/projetos/{projeto.id}"
-							class="group relative rounded-lg border border-base-300 p-1 hover:scale-102 transition-all duration-500"
+							class="group relative rounded-lg border border-base-300 p-1 transition-all duration-500 hover:scale-102"
 						>
 							<GlowCard
 								spread={50}
